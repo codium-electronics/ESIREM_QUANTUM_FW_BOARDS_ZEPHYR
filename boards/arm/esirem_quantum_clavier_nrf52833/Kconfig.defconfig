@@ -1,0 +1,24 @@
+# ESIREM quantum clavier nRF52833 board configuration
+
+# Copyright (c) 2019 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_ESIREM_QUANTUM_CLAVIER_NRF52833
+
+config BOARD
+	default "esirem_quantum_clavier_nrf52833"
+
+if USB
+
+config USB_NRFX
+	default y
+
+config USB_DEVICE_STACK
+	default y
+
+endif # USB
+
+config BT_CTLR
+	default BT
+
+endif # BOARD_ESIREM_QUANTUM_CLAVIER_NRF52833

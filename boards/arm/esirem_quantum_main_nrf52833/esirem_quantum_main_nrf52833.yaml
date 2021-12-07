@@ -1,0 +1,15 @@
+identifier: esirem-main-nrf52833
+name: ESIREM-MAIN-NRF52833
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - ble
+  - gpio
+  - watchdog
+  - counter
+  - uart
+  - uarte

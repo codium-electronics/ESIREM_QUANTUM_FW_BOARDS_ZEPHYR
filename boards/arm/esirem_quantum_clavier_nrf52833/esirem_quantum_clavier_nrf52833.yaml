@@ -1,0 +1,15 @@
+identifier: esirem-quantum-clavier-nrf52833
+name: ESIREM-QUANTUM-CLAVIER-NRF52833
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - ble
+  - gpio
+  - watchdog
+  - counter
+  - uart
+  - uarte

@@ -1,0 +1,4 @@
+name: ESIREM_QUANTUM_FW_BOARDS_ZEPHYR
+build:
+  settings:
+    board_root: .
